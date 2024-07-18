@@ -4,8 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "prepare": "npm install",
-    "vercel-build": "npm run prepare && next build"
+    "prepare": "pnpm install",
+    "vercel-build": "pnpm run prepare && next build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
