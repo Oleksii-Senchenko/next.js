@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
+    "prepare": "npm install",
     "vercel-build": "npm run prepare && next build"
   },
   "dependencies": {
